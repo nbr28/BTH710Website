@@ -1,0 +1,557 @@
+{
+    "titles": [
+        {
+            "lastPlayed": "2019-08-18T16:55:29.4130000Z",
+            "currentAchievements": 0,
+            "currentGamerscore": 0,
+            "sequence": 788,
+            "titleId": 1110837203,
+            "titleType": 5,
+            "platforms": [
+                1
+            ],
+            "name": "YouTube",
+            "totalAchievements": 0,
+            "totalGamerscore": 0
+        },
+        {
+            "lastPlayed": "2019-07-29T00:40:33.7600000Z",
+            "currentAchievements": 0,
+            "currentGamerscore": 0,
+            "sequence": 787,
+            "titleId": 960956369,
+            "titleType": 5,
+            "platforms": [
+                1
+            ],
+            "name": "Netflix",
+            "totalAchievements": 0,
+            "totalGamerscore": 0
+        },
+        {
+            "lastPlayed": "2018-08-01T00:38:12.5530000Z",
+            "currentAchievements": 1,
+            "currentGamerscore": 100,
+            "sequence": 739,
+            "titleId": 1431504859,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Blazing Angels",
+            "totalAchievements": 7,
+            "totalGamerscore": 1000
+        },
+        {
+            "lastPlayed": "2018-01-28T18:16:49.8230000Z",
+            "currentAchievements": 14,
+            "currentGamerscore": 270,
+            "sequence": 714,
+            "titleId": 1161890066,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Portal 2",
+            "totalAchievements": 50,
+            "totalGamerscore": 1000
+        },
+        {
+            "lastPlayed": "2017-12-25T17:25:09.4030000Z",
+            "currentAchievements": 37,
+            "currentGamerscore": 820,
+            "sequence": 686,
+            "titleId": 1297287153,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Fable II",
+            "totalAchievements": 66,
+            "totalGamerscore": 1350
+        },
+        {
+            "lastPlayed": "2017-12-10T01:58:36.6530000Z",
+            "currentAchievements": 43,
+            "currentGamerscore": 820,
+            "sequence": 680,
+            "titleId": 1096157207,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Modern Warfare® 2",
+            "totalAchievements": 50,
+            "totalGamerscore": 1000
+        },
+        {
+            "lastPlayed": "2017-12-10T01:57:26.1600000Z",
+            "currentAchievements": 19,
+            "currentGamerscore": 300,
+            "sequence": 678,
+            "titleId": 1096157269,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Call of Duty Black Ops",
+            "totalAchievements": 71,
+            "totalGamerscore": 1700
+        },
+        {
+            "lastPlayed": "2017-10-19T19:03:16.2430000Z",
+            "currentAchievements": 29,
+            "currentGamerscore": 600,
+            "sequence": 661,
+            "titleId": 1431504989,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "AC Brotherhood",
+            "totalAchievements": 60,
+            "totalGamerscore": 1250
+        },
+        {
+            "lastPlayed": "2017-10-16T01:24:02.7130000Z",
+            "currentAchievements": 13,
+            "currentGamerscore": 200,
+            "sequence": 655,
+            "titleId": 1096157212,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Call of Duty: WaW",
+            "totalAchievements": 66,
+            "totalGamerscore": 1500
+        },
+        {
+            "lastPlayed": "2016-10-28T01:05:37.3370000Z",
+            "currentAchievements": 2,
+            "currentGamerscore": 20,
+            "sequence": 510,
+            "titleId": 1279330262,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Thrillville: OTR",
+            "totalAchievements": 50,
+            "totalGamerscore": 1000
+        },
+        {
+            "lastPlayed": "2016-10-28T01:04:36.8630000Z",
+            "currentAchievements": 27,
+            "currentGamerscore": 815,
+            "sequence": 508,
+            "titleId": 1297287142,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Halo 3",
+            "totalAchievements": 79,
+            "totalGamerscore": 1750
+        },
+        {
+            "lastPlayed": "2016-02-16T01:01:27.5470000Z",
+            "currentAchievements": 0,
+            "currentGamerscore": 0,
+            "sequence": 402,
+            "titleId": 1481115739,
+            "titleType": 5,
+            "platforms": [
+                1
+            ],
+            "name": "Movies & TV and Groove",
+            "totalAchievements": 0,
+            "totalGamerscore": 0
+        },
+        {
+            "lastPlayed": "2016-02-05T17:49:53.1000000Z",
+            "currentAchievements": 22,
+            "currentGamerscore": 275,
+            "sequence": 332,
+            "titleId": 1096157387,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Modern Warfare® 3",
+            "totalAchievements": 76,
+            "totalGamerscore": 1610
+        },
+        {
+            "lastPlayed": "2016-02-05T17:49:53.1000000Z",
+            "currentAchievements": 12,
+            "currentGamerscore": 145,
+            "sequence": 385,
+            "titleId": 1297287259,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Halo: Reach",
+            "totalAchievements": 69,
+            "totalGamerscore": 1700
+        },
+        {
+            "lastPlayed": "2016-02-05T17:49:53.1000000Z",
+            "currentAchievements": 24,
+            "currentGamerscore": 425,
+            "sequence": 300,
+            "titleId": 1161889960,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Battlefield: Bad Co. 2",
+            "totalAchievements": 72,
+            "totalGamerscore": 1430
+        },
+        {
+            "lastPlayed": "2016-02-05T17:49:53.1000000Z",
+            "currentAchievements": 27,
+            "currentGamerscore": 530,
+            "sequence": 318,
+            "titleId": 1431504912,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Far Cry® 2",
+            "totalAchievements": 48,
+            "totalGamerscore": 1000
+        },
+        {
+            "lastPlayed": "2016-02-05T17:49:53.1000000Z",
+            "currentAchievements": 13,
+            "currentGamerscore": 160,
+            "sequence": 346,
+            "titleId": 1112737772,
+            "titleType": 1,
+            "platforms": [
+                1,
+                2
+            ],
+            "name": "RAGE",
+            "totalAchievements": 60,
+            "totalGamerscore": 1250
+        },
+        {
+            "lastPlayed": "2016-02-05T17:49:53.1000000Z",
+            "currentAchievements": 21,
+            "currentGamerscore": 330,
+            "sequence": 370,
+            "titleId": 1112737766,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Skyrim",
+            "totalAchievements": 75,
+            "totalGamerscore": 1550
+        },
+        {
+            "lastPlayed": "2016-02-05T17:49:53.1000000Z",
+            "currentAchievements": 20,
+            "currentGamerscore": 345,
+            "sequence": 372,
+            "titleId": 1414793191,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Borderlands",
+            "totalAchievements": 80,
+            "totalGamerscore": 1750
+        },
+        {
+            "lastPlayed": "2016-02-05T17:49:53.1000000Z",
+            "currentAchievements": 16,
+            "currentGamerscore": 285,
+            "sequence": 386,
+            "titleId": 1414793340,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Borderlands 2",
+            "totalAchievements": 69,
+            "totalGamerscore": 1625
+        },
+        {
+            "lastPlayed": "2016-02-05T17:49:53.1000000Z",
+            "currentAchievements": 16,
+            "currentGamerscore": 500,
+            "sequence": 381,
+            "titleId": 1431504855,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "TC's SC Double Agent",
+            "totalAchievements": 38,
+            "totalGamerscore": 1000
+        },
+        {
+            "lastPlayed": "2016-02-05T17:49:53.1000000Z",
+            "currentAchievements": 4,
+            "currentGamerscore": 45,
+            "sequence": 377,
+            "titleId": 1161889772,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Need for Speed™ Carbon",
+            "totalAchievements": 50,
+            "totalGamerscore": 1000
+        },
+        {
+            "lastPlayed": "2016-02-05T17:49:53.1000000Z",
+            "currentAchievements": 12,
+            "currentGamerscore": 300,
+            "sequence": 356,
+            "titleId": 1431504853,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "TC's GRAW",
+            "totalAchievements": 43,
+            "totalGamerscore": 1000
+        },
+        {
+            "lastPlayed": "2016-02-05T17:49:53.1000000Z",
+            "currentAchievements": 25,
+            "currentGamerscore": 305,
+            "sequence": 329,
+            "titleId": 1297287213,
+            "titleType": 1,
+            "platforms": [
+                1,
+                2
+            ],
+            "name": "Gears of War 2",
+            "totalAchievements": 79,
+            "totalGamerscore": 1750
+        },
+        {
+            "lastPlayed": "2009-09-24T00:53:44.4030000Z",
+            "currentAchievements": 20,
+            "currentGamerscore": 370,
+            "sequence": 279,
+            "titleId": 1096157158,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Call of Duty 4",
+            "totalAchievements": 37,
+            "totalGamerscore": 1000
+        },
+        {
+            "lastPlayed": "1753-01-01T00:00:00.0000000Z",
+            "currentAchievements": 36,
+            "currentGamerscore": 815,
+            "sequence": 260,
+            "titleId": 1431504955,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Assassin's Creed II",
+            "totalAchievements": 50,
+            "totalGamerscore": 1000
+        },
+        {
+            "lastPlayed": "2010-01-01T02:50:55.2600000Z",
+            "currentAchievements": 28,
+            "currentGamerscore": 680,
+            "sequence": 250,
+            "titleId": 1161889817,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Harry Potter OOTP",
+            "totalAchievements": 41,
+            "totalGamerscore": 1000
+        },
+        {
+            "lastPlayed": "2010-01-01T01:25:32.5400000Z",
+            "currentAchievements": 0,
+            "currentGamerscore": 0,
+            "sequence": 245,
+            "titleId": 1297287374,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Halo Waypoint",
+            "totalAchievements": 0,
+            "totalGamerscore": 0
+        },
+        {
+            "lastPlayed": "1753-01-01T00:00:00.0000000Z",
+            "currentAchievements": 23,
+            "currentGamerscore": 475,
+            "sequence": 198,
+            "titleId": 1297287287,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Halo 3: ODST",
+            "totalAchievements": 47,
+            "totalGamerscore": 1000
+        },
+        {
+            "lastPlayed": "1753-01-01T00:00:00.0000000Z",
+            "currentAchievements": 26,
+            "currentGamerscore": 680,
+            "sequence": 155,
+            "titleId": 1431504852,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Assassin's Creed",
+            "totalAchievements": 44,
+            "totalGamerscore": 1000
+        },
+        {
+            "lastPlayed": "1753-01-01T00:00:00.0000000Z",
+            "currentAchievements": 0,
+            "currentGamerscore": 0,
+            "sequence": 56,
+            "titleId": 1480656912,
+            "titleType": 3,
+            "platforms": [
+                1
+            ],
+            "name": "Heavy Weapon",
+            "totalAchievements": 12,
+            "totalGamerscore": 200
+        },
+        {
+            "lastPlayed": "1753-01-01T00:00:00.0000000Z",
+            "currentAchievements": 0,
+            "currentGamerscore": 0,
+            "sequence": 55,
+            "titleId": 1480656894,
+            "titleType": 3,
+            "platforms": [
+                1
+            ],
+            "name": "Assault Heroes",
+            "totalAchievements": 12,
+            "totalGamerscore": 200
+        },
+        {
+            "lastPlayed": "1753-01-01T00:00:00.0000000Z",
+            "currentAchievements": 0,
+            "currentGamerscore": 0,
+            "sequence": 54,
+            "titleId": 1480656883,
+            "titleType": 3,
+            "platforms": [
+                1
+            ],
+            "name": "UNO",
+            "totalAchievements": 12,
+            "totalGamerscore": 200
+        },
+        {
+            "lastPlayed": "1753-01-01T00:00:00.0000000Z",
+            "currentAchievements": 0,
+            "currentGamerscore": 0,
+            "sequence": 53,
+            "titleId": 1480656881,
+            "titleType": 3,
+            "platforms": [
+                1
+            ],
+            "name": "Feeding Frenzy",
+            "totalAchievements": 12,
+            "totalGamerscore": 200
+        },
+        {
+            "lastPlayed": "1753-01-01T00:00:00.0000000Z",
+            "currentAchievements": 2,
+            "currentGamerscore": 200,
+            "sequence": 28,
+            "titleId": 1096157137,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "Call of Duty 2",
+            "totalAchievements": 13,
+            "totalGamerscore": 1000
+        },
+        {
+            "lastPlayed": "1753-01-01T00:00:00.0000000Z",
+            "currentAchievements": 0,
+            "currentGamerscore": 0,
+            "sequence": 14,
+            "titleId": 1480656879,
+            "titleType": 3,
+            "platforms": [
+                1
+            ],
+            "name": "Zuma",
+            "totalAchievements": 12,
+            "totalGamerscore": 200
+        },
+        {
+            "lastPlayed": "1753-01-01T00:00:00.0000000Z",
+            "currentAchievements": 0,
+            "currentGamerscore": 0,
+            "sequence": 13,
+            "titleId": 1480656849,
+            "titleType": 3,
+            "platforms": [
+                1
+            ],
+            "name": "Hexic HD",
+            "totalAchievements": 12,
+            "totalGamerscore": 200
+        },
+        {
+            "lastPlayed": "1753-01-01T00:00:00.0000000Z",
+            "currentAchievements": 9,
+            "currentGamerscore": 100,
+            "sequence": 10,
+            "titleId": 1313671121,
+            "titleType": 1,
+            "platforms": [
+                1
+            ],
+            "name": "ACE COMBAT 6",
+            "totalAchievements": 49,
+            "totalGamerscore": 1000
+        },
+        {
+            "lastPlayed": "1753-01-01T00:00:00.0000000Z",
+            "currentAchievements": 0,
+            "currentGamerscore": 0,
+            "sequence": 2,
+            "titleId": 1480656913,
+            "titleType": 3,
+            "platforms": [
+                1
+            ],
+            "name": "PAC-MAN",
+            "totalAchievements": 12,
+            "totalGamerscore": 200
+        }
+    ],
+    "version": "2019-11-26T17:44:14.7970000Z",
+    "pagingInfo": {
+        "continuationToken": null,
+        "totalRecords": 39
+    }
+}

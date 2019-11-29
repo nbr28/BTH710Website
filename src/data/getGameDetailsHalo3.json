@@ -1,0 +1,138 @@
+{
+    "ImpressionGuid": "e610f91d-c00f-4794-94af-d11382190e20",
+    "Items": [
+        {
+            "MediaGroup": 1,
+            "MediaItemType": 1,
+            "ID": "66acd000-77fe-1000-9115-d8024d5307e6",
+            "Name": "Halo 3",
+            "Description": "This game supports English. Download the manual for this game by locating the game on http://marketplace.xbox.com and selecting “See Game Manual\". The epic saga continues with Halo 3, the hugely anticipated third chapter in the highly successful and critically acclaimed Halo franchise created by Bungie.  Master Chief returns to finish the fight, bringing the epic conflict between the Covenant, the Flood, and the entire human race to a dramatic, pulse-pounding climax. There are no refunds for this item. For more information, see www.xbox.com/live/accounts.",
+            "ReducedDescription": "The epic saga continues with Halo 3, the hugely anticipated third chapter in the highly successful and critically acclaimed Halo franchise created by Bungie.  Master Chief returns to finish the fight, bringing the epic conflict between the Covenant, the Flood, and the entire human race to a dramatic, pulse-pounding climax.",
+            "ReducedName": "Halo 3",
+            "ReleaseDate": "/Date(1271754000000)/",
+            "TitleId": 1297287142,
+            "VuiDisplayName": "Halo 3",
+            "Genres": [
+                {
+                    "ID": 3011,
+                    "Name": "Shooter",
+                    "ParentId": 3027,
+                    "SystemId": 3000
+                }
+            ],
+            "DeveloperName": "Bungie Studios",
+            "Images": [
+                {
+                    "Height": 64,
+                    "Purpose": "Thumbnail",
+                    "Purposes": [
+                        "Thumbnail"
+                    ],
+                    "ResizeUrl": "http://images-eds.xboxlive.com/image?url=S35PkG.Po6AuYMOCXUZRrEOttKZnyhla8BAvz_.mFVKA4u8jVObzUIIr.IPhFRiAXDCYYehBCXOsKscjqVzwuNRPWTIKhNCGxECr1V.wx2XJ5LtDot4CXkSOygeqaYDpka9evk5vRcuLUPoHhP85HA--",
+                    "Url": "http://download.xbox.com/content/images/66acd000-77fe-1000-9115-d8024d5307e6/1033/tile.png",
+                    "Width": 64
+                },
+                {
+                    "Height": 300,
+                    "Purpose": "BoxArt",
+                    "Purposes": [
+                        "BoxArt"
+                    ],
+                    "ResizeUrl": "http://images-eds.xboxlive.com/image?url=S35PkG.Po6AuYMOCXUZRrEOttKZnyhla8BAvz_.mFVKA4u8jVObzUIIr.IPhFRiAXDCYYehBCXOsKscjqVzwuEwJ7vpx_eAF1ZAC2qC0iqwhIEoM9cqloRCQWD3k4AJD0cgoWnfaqCCFtVDyL46NTg--",
+                    "Url": "http://download.xbox.com/content/images/66acd000-77fe-1000-9115-d8024d5307e6/2057/boxartlg.jpg",
+                    "Width": 219
+                },
+                {
+                    "Height": 720,
+                    "Purpose": "WideBackgroundImage",
+                    "Purposes": [
+                        "WideBackgroundImage"
+                    ],
+                    "ResizeUrl": "http://images-eds.xboxlive.com/image?url=S35PkG.Po6AuYMOCXUZRrEOttKZnyhla8BAvz_.mFVKA4u8jVObzUIIr.IPhFRiAXDCYYehBCXOsKscjqVzwuNRPWTIKhNCGxECr1V.wx2UIpDLklHgN1XORxeJc2Eh3hPJUrR.gZ0ao9MKvXMnrRQ--",
+                    "Url": "http://download.xbox.com/content/images/66acd000-77fe-1000-9115-d8024d5307e6/1033/background.jpg",
+                    "Width": 1280
+                },
+                {
+                    "Height": 120,
+                    "Purpose": "BoxArt",
+                    "Purposes": [
+                        "BoxArt"
+                    ],
+                    "ResizeUrl": "http://images-eds.xboxlive.com/image?url=S35PkG.Po6AuYMOCXUZRrEOttKZnyhla8BAvz_.mFVKA4u8jVObzUIIr.IPhFRiAXDCYYehBCXOsKscjqVzwuEwJ7vpx_eAF1ZAC2qC0iqweMXg03YXnlzO.kw3SWT9AKMWQ5mntjLinI9wLChdV.A--",
+                    "Url": "http://download.xbox.com/content/images/66acd000-77fe-1000-9115-d8024d5307e6/2057/boxartsm.jpg",
+                    "Width": 85
+                },
+                {
+                    "Height": 95,
+                    "Purpose": "SellImage",
+                    "Purposes": [
+                        "SellImage"
+                    ],
+                    "ResizeUrl": "http://images-eds.xboxlive.com/image?url=S35PkG.Po6AuYMOCXUZRrEOttKZnyhla8BAvz_.mFVKA4u8jVObzUIIr.IPhFRiAXDCYYehBCXOsKscjqVzwuNRPWTIKhNCGxECr1V.wx2XO_bp2aXOwabDbtLJzRz0xfgKkn7z7sxZf8HOFFGk4uw--",
+                    "Url": "http://download.xbox.com/content/images/66acd000-77fe-1000-9115-d8024d5307e6/1033/banner.png",
+                    "Width": 420
+                }
+            ],
+            "PublisherName": "Microsoft",
+            "Updated": "/Date(1559074732040)/",
+            "Capabilities": [
+                {
+                    "NonLocalizedName": "offlineSystemLinkMin",
+                    "Value": 1
+                },
+                {
+                    "NonLocalizedName": "offlineSystemLinkMax",
+                    "Value": 2
+                },
+                {
+                    "NonLocalizedName": "offlineMaxHDTVModeId",
+                    "Value": 3
+                },
+                {
+                    "NonLocalizedName": "offlineDolbyDigital",
+                    "Value": "True"
+                },
+                {
+                    "NonLocalizedName": "onlineMultiplayerMin",
+                    "Value": 1
+                },
+                {
+                    "NonLocalizedName": "onlineMultiplayerMax",
+                    "Value": 16
+                },
+                {
+                    "NonLocalizedName": "onlineCoopPlayersMin",
+                    "Value": 1
+                },
+                {
+                    "NonLocalizedName": "onlineCoopPlayersMax",
+                    "Value": 4
+                },
+                {
+                    "NonLocalizedName": "onlineContentDownload",
+                    "Value": "True"
+                },
+                {
+                    "NonLocalizedName": "onlineLeaderboards",
+                    "Value": "True"
+                },
+                {
+                    "NonLocalizedName": "onlineVoice",
+                    "Value": "True"
+                }
+            ],
+            "HexTitleId": 1297287142,
+            "AllTimeAverageRating": 4.5,
+            "LegacyIds": [
+                {
+                    "IdType": "HexTitleId",
+                    "Value": 1297287142
+                },
+                {
+                    "IdType": "TitleId",
+                    "Value": 1297287142
+                }
+            ]
+        }
+    ]
+}

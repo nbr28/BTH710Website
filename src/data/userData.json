@@ -1,0 +1,31 @@
+{
+    "userKey": null,
+    "administeredConsoles": [],
+    "dateOfBirth": "1994-01-28T00:00:00",
+    "email": "natanross@hotmail.com",
+    "firstName": "Natan",
+    "gamerTag": "natanross",
+    "homeAddressInfo": {
+        "street1": null,
+        "street2": null,
+        "city": null,
+        "state": null,
+        "postalCode": null,
+        "country": "CA"
+    },
+    "homeConsole": null,
+    "imageUrl": "https://cid-2245b1bb8540d766.users.storage.live.com/users/0x2245b1bb8540d766/myprofile/expressionprofile/profilephoto:Win8Static/UserTile?ck=1&ex=24",
+    "isAdult": true,
+    "lastName": "Ross",
+    "legalCountry": "CA",
+    "locale": "en-CA",
+    "msftOptin": false,
+    "ownerHash": null,
+    "ownerXuid": 2533274848512542,
+    "midasConsole": null,
+    "partnerOptin": false,
+    "userHash": "2999846583174640520",
+    "userXuid": 2533274848512542,
+    "touAcceptanceDate": "2016-02-05T17:56:33.843",
+    "gamerTagChangeReason": null
+}
