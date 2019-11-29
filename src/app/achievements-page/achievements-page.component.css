@@ -1,0 +1,11 @@
+.achievement-image {
+    display:inline-block;
+    padding:10px;
+}
+
+.achievement-image img {
+    height:90px;
+    width:90px;
+    padding:10px;
+    background-color:#303030;
+}

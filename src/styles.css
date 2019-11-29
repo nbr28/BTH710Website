@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color:#303030;
+    background-image:url("./assets/Trophy.png");
+    
+}
+
+h1, h2 {
+    color:#DCA16E;
+    text-transform:uppercase;
+}
+
+h3 {
+    color:#888888;
+    text-transform: uppercase;
+}
+
+.outer-container {
+    padding:20px;
+    background-color: #252525;
+    border:1px solid #424242;
+    margin: 20 auto;
+    width:1000px;
+}
+
+.dark-container, .highlighted-dark-container {
+    width:100%;
+    margin:0 auto;
+    background-color: #252525;
+    border:1px solid #424242;
+    padding:10px;
+}
+
+.light-container, .highlighted-light-container {
+    width:100%;
+    margin:0 auto;
+    background-color:#303030;
+    border:1px solid #424242;
+    padding:10px;
+}
+
+.highlighted-light-container, .highlighted-dark-container {
+    border: 1px solid #DCA16E;
+}
