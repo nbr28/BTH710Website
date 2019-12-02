@@ -10,11 +10,14 @@ export class HomePageComponent implements OnInit {
 
   achievements: any[];
   names: Array<String>;
+  lastAchievement:any;
+  numbers: Number[];
   constructor(private achievementService: AchievementManagerService) { 
     this.names=[];
+    this.numbers = Array(25).fill(1).map((x,i)=>i); // used to generate the feed
     this.achievementService.getAllAchievements();
     this.achievements = this.achievementService.getAchievementsByGame("portal");
-    this.achievements.concat(this.achievementService.getAchievementsByGame("halo 3"));
+    this.achievements=this.achievements.concat(this.achievementService.getAchievementsByGame("halo 3"));
   }
 
   ngOnInit() {
@@ -27,7 +30,12 @@ export class HomePageComponent implements OnInit {
   }
   randomUserAchievement()
   {
-    return this.achievements[Math.floor(Math.random()*this.achievements.length)].name
+    this.lastAchievement=this.achievements[Math.floor(Math.random()*this.achievements.length)];
+    return this.lastAchievement.name
+  }
+  lastAchievementImg()
+  {
+    return this.lastAchievement.imageUnlocked
   }
 
 

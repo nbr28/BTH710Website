@@ -13,6 +13,8 @@ export class FriendsAchievementsComponent implements OnInit {
   userAchievement: string;
   @Input()
   userImg: string;
+  @Input()
+  userAImg: string;
 
   constructor() { }
 
