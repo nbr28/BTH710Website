@@ -1,22 +1,21 @@
 <div class="row">
   <div  style="background-color:rgb(44, 40, 40); margin: 10px; padding:10px">
 
+    <!-- Achievement Feed -->
     <div class="row" style="background-color: dimgray; margin: 5px; padding: 20px;">
       <h1 style="text-align: center; color: #DCA16E">NEWS FEED</h1>
       <h4 style="color: silver">Friends' Achievements</h4>
       <div class="container" style="max-width:100%; max-height:100%;">
         <div class="row" style=" background-color: rgb(44, 40, 40); padding: 5px;  ">
           <div >
-           <app-friends-achievements *ngFor="let number of numbers" [userName]="this.randomUserName()" [userImg]="'http://image.xboxlive.com/global/t.415707dd/tile/0/2040c'" [userAchievement]="this.randomUserAchievement()" [userAImg]="this.lastAchievementImg()"></app-friends-achievements>
+           <app-friends-achievements *ngFor="let number of numbers" 
+           [userName]="this.randomUserName()" 
+           [userImg]="'http://image.xboxlive.com/global/t.415707dd/tile/0/2040c'" 
+           [userAchievement]="this.randomUserAchievement()" 
+           [userAImg]="this.lastAchievementImg()"></app-friends-achievements>
           </div>
         </div>
       </div>
-
-
-
-
-
-
 
       <!-- Trophy Tracker News -->
       <h4 style="color: silver">Trophy Tracker News</h4>
