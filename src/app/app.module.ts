@@ -10,6 +10,9 @@ import { AchievementsPageComponent } from './achievements-page/achievements-page
 import { FriendsPageComponent } from './friends-page/friends-page.component';
 import { RouterModule } from '@angular/router';
 import { Profile } from 'selenium-webdriver/firefox';
+import { UserProfileImageComponent } from './home-page/subcomponents/user-profile-image/user-profile-image.component';
+import { UserProfileInfoComponent } from './home-page/subcomponents/user-profile-info/user-profile-info.component';
+import { FriendsAchievementsComponent } from './home-page/subcomponents/friends-achievements/friends-achievements.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { Profile } from 'selenium-webdriver/firefox';
     HomePageComponent,
     ProfilePageComponent,
     AchievementsPageComponent,
-    FriendsPageComponent
+    FriendsPageComponent,
+    UserProfileImageComponent,
+    UserProfileInfoComponent,
+    FriendsAchievementsComponent
   ],
   imports: [
     BrowserModule,

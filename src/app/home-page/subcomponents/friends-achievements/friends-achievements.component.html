@@ -1,0 +1,5 @@
+<div style="background-color: lightgrey; padding: 5px; margin:5px; display:inline-block; max-width:100%; max-height:100%;" >
+    <app-user-profile-image [imgSrc]="userImg"></app-user-profile-image>
+    <app-user-profile-info [userName]="userName" [userAchievement]="userAchievement"></app-user-profile-info>
+    <app-user-profile-image *ngIf="this.userAImg" [imgSrc]="userAImg"></app-user-profile-image>
+</div>
