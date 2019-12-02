@@ -7,13 +7,9 @@
       <div class="container" style="max-width:100%; max-height:100%;">
         <div class="row" style=" background-color: rgb(44, 40, 40); padding: 5px;  ">
          
-            <app-user-profile-image [imgSrc]="'http://image.xboxlive.com/global/t.415707dd/tile/0/2040c'">
-            </app-user-profile-image>
-            <app-user-profile-info [userName]="'Testing'" [userAchievement]="userProfileName"></app-user-profile-info>
-         
-        
-            <app-user-profile-image [imgSrc]="'http://image.xboxlive.com/global/t.415707dd/tile/0/2040c'">
-            </app-user-profile-image>
+           <app-friends-achievements [userName]="this.randomUserName()" [userImg]="'http://image.xboxlive.com/global/t.415707dd/tile/0/2040c'" [userAchievement]="this.randomUserAchievement()"></app-friends-achievements>
+           <app-friends-achievements [userName]="this.randomUserName()" [userImg]="'http://image.xboxlive.com/global/t.415707dd/tile/0/2040c'" [userAchievement]="this.randomUserAchievement()"></app-friends-achievements>
+
         </div>
       </div>
 
