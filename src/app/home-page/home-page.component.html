@@ -10,7 +10,7 @@
           <div >
            <app-friends-achievements *ngFor="let number of numbers" 
            [userName]="this.randomUserName()" 
-           [userImg]="'http://image.xboxlive.com/global/t.415707dd/tile/0/2040c'" 
+           [userImg]="this.randomImageService.getRandomImage()" 
            [userAchievement]="this.randomUserAchievement()" 
            [userAImg]="this.lastAchievementImg()"></app-friends-achievements>
           </div>
