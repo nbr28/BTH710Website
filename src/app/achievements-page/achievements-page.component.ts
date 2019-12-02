@@ -15,7 +15,7 @@ export class AchievementsPageComponent implements OnInit {
     this.achievementService.getAllAchievements();
     this.pinnedAchievements = this.achievementService.getPinnedAchievements();
     this.portalAchievements = this.achievementService.getAchievementsByGame("portal");
-    this.portalAchievements = this.achievementService.getAchievementsByGame("halo 3");
+    this.haloAchievements = this.achievementService.getAchievementsByGame("halo 3");
    }
 
   ngOnInit() {
