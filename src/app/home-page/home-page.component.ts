@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AchievementManagerService } from '../services/achievement-manager.service';
-
+import {RandomImagesService} from '../services/random-images.service'
 @Component({
   selector: 'app-home-page',
   templateUrl: './home-page.component.html',
@@ -12,9 +12,9 @@ export class HomePageComponent implements OnInit {
   names: Array<String>;
   lastAchievement:any;
   numbers: Number[];
-  constructor(private achievementService: AchievementManagerService) { 
+  constructor(private achievementService: AchievementManagerService, public randomImageService:RandomImagesService) { 
     this.names=[];
-    this.numbers = Array(25).fill(1).map((x,i)=>i); // used to generate the feed
+    this.numbers = Array(10).fill(1).map((x,i)=>i); // used to generate the feed
     this.achievementService.getAllAchievements();
     this.achievements = this.achievementService.getAchievementsByGame("portal");
     this.achievements=this.achievements.concat(this.achievementService.getAchievementsByGame("halo 3"));
@@ -22,6 +22,7 @@ export class HomePageComponent implements OnInit {
 
   ngOnInit() {
   }
+
 
   randomUserName() {
     // console.log(Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15));
