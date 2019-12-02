@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-
+import {RandomImagesService} from "../../../services/random-images.service"
 @Component({
   selector: 'app-user-profile-image',
   templateUrl: './user-profile-image.component.html',
@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class UserProfileImageComponent implements OnInit {
   @Input() imgSrc : string;
-  constructor() {
+  constructor(public randomImageService:RandomImagesService) {
    }
 
   ngOnInit() {

@@ -14,7 +14,7 @@ export class HomePageComponent implements OnInit {
   numbers: Number[];
   constructor(private achievementService: AchievementManagerService, public randomImageService:RandomImagesService) { 
     this.names=[];
-    this.numbers = Array(10).fill(1).map((x,i)=>i); // used to generate the feed
+    this.numbers = Array(15).fill(1).map((x,i)=>i); // used to generate the feed
     this.achievementService.getAllAchievements();
     this.achievements = this.achievementService.getAchievementsByGame("portal");
     this.achievements=this.achievements.concat(this.achievementService.getAchievementsByGame("halo 3"));
