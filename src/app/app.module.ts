@@ -11,6 +11,7 @@ import { FriendsPageComponent } from './friends-page/friends-page.component';
 import { RouterModule } from '@angular/router';
 import { Profile } from 'selenium-webdriver/firefox';
 import { UserProfileImageComponent } from './home-page/subcomponents/user-profile-image/user-profile-image.component';
+import { UserProfileInfoComponent } from './home-page/subcomponents/user-profile-info/user-profile-info.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { UserProfileImageComponent } from './home-page/subcomponents/user-profil
     ProfilePageComponent,
     AchievementsPageComponent,
     FriendsPageComponent,
-    UserProfileImageComponent
+    UserProfileImageComponent,
+    UserProfileInfoComponent
   ],
   imports: [
     BrowserModule,

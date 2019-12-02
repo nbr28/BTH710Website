@@ -1,27 +1,21 @@
-<p style="visibility: hidden">
-  home-page works!
-</p>
-
 <div class="row">
-  <div class="center" style="background-color:rgb(44, 40, 40); margin: 10px; padding:10px">
+  <div  style="background-color:rgb(44, 40, 40); margin: 10px; padding:10px">
 
     <div class="row" style="background-color: dimgray; margin: 5px; padding: 20px;">
       <h1 style="text-align: center; color: #DCA16E">NEWS FEED</h1>
       <h4 style="color: silver">Friends' Achievements</h4>
-      <table>
-        <tbody>
-          <tr>
-            <div style="background-color:rgb(44, 40, 40); padding-top: 5px; padding-right: 10px;">
-              <app-user-profile-image [imgSrc]="'http://image.xboxlive.com/global/t.415707dd/tile/0/2040c'">
-              </app-user-profile-image>
-            </div>
-            <div style="background-color:rgb(44, 40, 40); padding-top: 5px; padding-right: 10px;">
-              <app-user-profile-image [imgSrc]="'http://image.xboxlive.com/global/t.415707dd/tile/0/2040c'">
-              </app-user-profile-image>
-            </div>
-          </tr>
-        </tbody>
-      </table>
+      <div class="container" style="max-width:100%; max-height:100%;">
+        <div class="row" style=" background-color: rgb(44, 40, 40); padding: 5px;  ">
+         
+            <app-user-profile-image [imgSrc]="'http://image.xboxlive.com/global/t.415707dd/tile/0/2040c'">
+            </app-user-profile-image>
+            <app-user-profile-info [userName]="'Testing'" [userAchievement]="userProfileName"></app-user-profile-info>
+         
+        
+            <app-user-profile-image [imgSrc]="'http://image.xboxlive.com/global/t.415707dd/tile/0/2040c'">
+            </app-user-profile-image>
+        </div>
+      </div>
 
 
 
