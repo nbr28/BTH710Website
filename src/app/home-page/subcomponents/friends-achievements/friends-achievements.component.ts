@@ -16,7 +16,9 @@ export class FriendsAchievementsComponent implements OnInit {
   @Input()
   userAImg: string;
 
-  constructor() { }
+  constructor() { 
+    this.userAImg="";
+  }
 
   ngOnInit() {
   }
