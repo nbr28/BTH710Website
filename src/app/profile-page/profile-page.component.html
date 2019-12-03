@@ -1,26 +1,135 @@
-<p>
-  profile-page works!
-</p>
-<div class="container" style="background-color: rgb(44, 40, 40);">
-  <div class="row" style="background-color: dimgray; margin:15px 0px 15px 0px">
-    <div class="col-md-1">
+<!-- BIG PAGE ROW -->
+<div class="row">
+
+  <!-- Small picture & accounts column -->
+  <div class="col-md-3">
+
+    <!-- Small picture -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="achievement-image">
+          <img src="http://image.xboxlive.com/global/t.415707dd/tile/0/2040c" style="height: 200px; width:200px;" />
+        </div>
+      </div>
     </div>
-    <div class="col-md-10" style="background-color: burlywood; margin:70px 0px 70px 0px">
 
-      <div class="row">
-        <div class="col-md-2" style="background-color: orchid;">
+    <!-- Accounts -->
+    <div class="row" style="margin-top: 30px">
+      <div class="col-md-12">
+          <div class="dark-container">
+            <h3 style="color: #DCA16E; font: bold;">ACCOUNTS</h3>
+            <div class="row acc-row">
+              <div class="col-md-3">
+                <img src="https://i.postimg.cc/2j0vhQj7/download.jpg" style="height: 40px; width: 40px;">
+              </div>
+              <div class="col-md-9">
+                <p style="margin-left: 20px; margin-top:7px; font-size: 17px">username</p>
+              </div>
+            </div>
+            <div class="row acc-row">
+              <div class="col-md-3">
+                <img src="https://i.postimg.cc/W3LGhTnF/navy-playstation-png-logo-5.png" style="height: 40px; width: 40px;">
+              </div>
+              <div class="col-md-9">
+                <p style="margin-left: 20px; margin-top:7px; font-size: 17px">username</p>
+              </div>
+            </div>
+            <div class="row acc-row">
+              <div class="col-md-3">
+                <img src="https://i.postimg.cc/G2qWb7Ff/download-1.png" style="height: 40px; width: 40px;">
+              </div>
+              <div class="col-md-9">
+                <p style="margin-left: 20px; margin-top:7px; font-size: 17px">username</p>
+              </div>
+            </div>
+            <div class="row acc-row">
+              <div class="col-md-3">
+                <img src="https://i.postimg.cc/MTTsmWBs/download-2.png" style="height: 40px; width: 40px;">
+              </div>
+              <div class="col-md-9">
+                <p style="margin-left: 20px; margin-top:7px; font-size: 17px">username</p>
+              </div>
+            </div>
+            
+          </div>
+      </div>    
+    </div>
+  </div>
 
-          <div class="row" style="background-color: rgb(44, 40, 40)">
-            <div class="col-md-5" style="background-color: rgb(44, 40, 40); padding-top: 20px; padding-bottom: 20px">
-              <img src="https://i.postimg.cc/CLbSKLLr/download.png" width="100" style="margin-left: 15px">
+  <div class="col-md-9">
+
+    <!-- User Info -->
+    <div class="row">
+      <div class="col-md-6">
+        <h2 style="color: #DCA16E; font: bold;">QUEEN-FISHER</h2>
+      </div>
+      <div class="col-md-6" style="height: 66px">
+        <button class="fancyBtn">Friends</button>
+        <button class="fancyBtn">Edit Profile</button>
+      </div>
+    </div>
+    <p style="color: #888888; font: bold;">Treasure hunter. TV show host. Game enthusiast. Lover of all things Crash
+      Bandicoot.</p>
+
+    <!-- Pinned Trophies -->
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>Pinned Trophies</h2>
+        <div class="highlighted-dark-container">
+          <div class="row">
+          <div *ngFor="let pinnedAchievement of pinnedAchievements;let i=index;" class="col-sm-2 chievement-image-container">
+            <div class="achievement-image">
+              <img src="{{pinnedAchievement.imageUnlocked}}" />
+            </div>
+          </div>
+          <div class="achievement-image">
+              <button class="moreBtn">></button>
             </div>
           </div>
 
         </div>
-        <div class="col-md-8" style="background-color: palevioletred">weqweqe</div>
+      </div>
+    </div>
+
+    <!--  All Trophies -->
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>All Trophies</h2>
+        
+        <!-- Halo 3 row -->
+        <div class="row">
+          <div class="col-sm-12">
+            <h3 style="color: #888888; font: bold;">Halo 3</h3>
+            <div class="dark-container">
+              <div class="row">
+              <div *ngFor="let haloAchievement of haloAchievements;let i=index;"
+                class="achievement-image-container col-md-2">
+                <div class="achievement-image">
+                  <img src="{{haloAchievement.imageUnlocked}}" />
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-12">
+            <h3 style="color: #888888; font: bold;">Portal</h3>
+            <div class="dark-container">
+              <div class="row">
+              <div *ngFor="let portalAchievement of portalAchievements;let i=index;"
+                class="achievement-image-container col-md-2">
+                <div class="achievement-image">
+                  <img src="{{portalAchievement.imageUnlocked}}" />
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
       </div>
 
+
+
     </div>
-    <div class="col-md-1"></div>
   </div>
 </div>
