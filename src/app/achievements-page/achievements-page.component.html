@@ -6,8 +6,81 @@
   <div class="col-sm-12">
     <h2>Pinned Trophies</h2>
     <div class="highlighted-dark-container">
-      <div *ngFor="let pinnedAchievement of pinnedAchievements" class="achievement-image">
-        <img src="{{pinnedAchievement.imageUnlocked}}" />
+      <div *ngFor="let pinnedAchievement of pinnedAchievements;let i=index;" class="achievement-image-container">
+        <div *ngIf="i%2==0" class="achievement-image">
+          <img src="{{pinnedAchievement.imageUnlocked}}" />
+        </div>
+        <div *ngIf="i%2==1" class="achievement-image" style="margin-left:50px;">
+          <img src="{{pinnedAchievement.imageUnlocked}}" />
+        </div>
+        <div class="achievement-description-outer">
+          <div class="achievement-description-inner">
+            <div class="achievement-name">
+              {{pinnedAchievement.name}}
+            </div>
+            <div class="achievement-game">
+              Game: {{pinnedAchievement.game}}
+            </div>
+            <div class="achievement-unlock-date">
+              Unlocked on {{pinnedAchievement.timeUnlocked}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2>All Trophies</h2>
+    <h3>Halo 3 - <span style="color:#DCA16E" data-toggle="collapse" data-target="#haloCollapse">Show/Hide</span></h3>
+    <div class="collapse" id="haloCollapse">
+      <div class="dark-container">
+        <div *ngFor="let haloAchievement of haloAchievements;let i=index;" class="achievement-image-container">
+          <div *ngIf="i%2==0" class="achievement-image">
+            <img src="{{haloAchievement.imageUnlocked}}" />
+          </div>
+          <div *ngIf="i%2==1" class="achievement-image" style="margin-left:50px;">
+            <img src="{{haloAchievement.imageUnlocked}}" />
+          </div>
+          <div class="achievement-description-outer">
+            <div class="achievement-description-inner">
+              <div class="achievement-name">
+                {{haloAchievement.name}}
+              </div>
+              <div class="achievement-game">
+                Game: {{haloAchievement.game}}
+              </div>
+              <div class="achievement-unlock-date">
+                Unlocked on {{haloAchievement.timeUnlocked}}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3>Portal - <span style="color:#DCA16E" data-toggle="collapse" data-target="#portalCollapse">Show/Hide</span></h3>
+    <div class="collapse" id="portalCollapse">
+      <div class="dark-container">
+        <div *ngFor="let portalAchievement of portalAchievements;let i=index;" class="achievement-image-container">
+          <div *ngIf="i%2==0" class="achievement-image">
+            <img src="{{portalAchievement.imageUnlocked}}" />
+          </div>
+          <div *ngIf="i%2==1" class="achievement-image" style="margin-left:50px;">
+            <img src="{{portalAchievement.imageUnlocked}}" />
+          </div>
+          <div class="achievement-description-outer">
+            <div class="achievement-description-inner">
+              <div class="achievement-name">
+                {{portalAchievement.name}}
+              </div>
+              <div class="achievement-game">
+                Game: {{portalAchievement.game}}
+              </div>
+              <div class="achievement-unlock-date">
+                Unlocked on {{portalAchievement.timeUnlocked}}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -276,3 +349,27 @@
 
 
     </div>-->
+
+<div class="container">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+  </div>
+  <div class="row">
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+  </div>
+  <div class="row">
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+  </div>
+</div>
