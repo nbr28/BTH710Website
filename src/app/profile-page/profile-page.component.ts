@@ -22,8 +22,8 @@ export class ProfilePageComponent implements OnInit {
       this.pinnedAchievements[i]=this.allPinnedAchievements[i];
     }
 
-    this.portalAchievements = this.achievementService.getAchievementsByGame("portal");
-    this.haloAchievements = this.achievementService.getAchievementsByGame("halo 3");
+    this.portalAchievements = this.achievementService.getAchievementsByGame("portal").slice(0, 5);
+    this.haloAchievements = this.achievementService.getAchievementsByGame("halo 3").slice(0, 5);
     
   }
 
