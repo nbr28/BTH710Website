@@ -1,57 +1,72 @@
 <div class="row">
-  <div  style="background-color:rgb(44, 40, 40); margin: 10px; padding:10px">
-
-    <!-- Achievement Feed -->
-    <div class="row" style="background-color: dimgray; margin: 5px; padding: 20px;">
-      <h1 style="text-align: center; color: #DCA16E">NEWS FEED</h1>
-      <h4 style="color: silver">Friends' Achievements</h4>
-      <div class="container" style="max-width:100%; max-height:100%;">
-        <div class="row" style=" background-color: rgb(44, 40, 40); padding: 5px;  ">
-          <div >
-           <app-friends-achievements *ngFor="let number of numbers" 
-           [userName]="this.randomUserName()" 
-           [userImg]="this.randomImageService.getRandomImage()" 
-           [userAchievement]="this.randomUserAchievement()" 
-           [userAImg]="this.lastAchievementImg()"></app-friends-achievements>
-          </div>
+  <div class="col-sm-12">
+    <h1>NEWS FEED</h1>
+    <h3>Friends' Achievements</h3>
+    <div class="dark-container">
+      <div *ngFor="let name of names;let i = index;" class="achievement-image-container">
+        <div *ngIf="i%2==0" class="achievement-image">
+          <img src="{{listOfUserPictures[i]}}" />
         </div>
-      </div>
-
-      <!-- Trophy Tracker News -->
-      <h4 style="color: silver">Trophy Tracker News</h4>
-      <div style="background-color:rgb(44, 40, 40); padding-top: 5px; padding-right: 10px">
-
-        <!-- first row of news! -->
-        <div class="row">
-          <div class="col-md-6">
-            <div class="row" style="padding: 15px">
-              <div class="col-md-2"
-                style="background-color: dimgray; padding-bottom: 35px; margin-left: 10px; width: 80px; margin-right: 5px">
-                <img src="https://i.postimg.cc/WpXR5Wb8/2477-200.png" width="70"
-                  style="padding-right:15px; padding-top:10px">
-              </div>
-              <div class="col-md-9" style="color: silver; background-color: dimgray; margin-left: 5px">
-                <p>Posted on 10/29/2019</p>
-                <P>You need more notifications, so we implemented a notification system to annoy you</P>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="row" style="padding: 15px">
-              <div class="col-md-2"
-                style="background-color: dimgray; padding-bottom: 35px; margin-left: 10px; width: 80px; margin-right: 5px">
-                <img src="https://i.postimg.cc/WpXR5Wb8/2477-200.png" width="70"
-                  style="padding-right:15px; padding-top:10px">
-              </div>
-              <div class="col-md-9" style="color: silver; background-color: dimgray; margin-left: 5px">
-                <p>Posted on 10/29/2019</p>
-                <p>You need more notifications, so we implemented a notification system to annoy you</p>
-              </div>
-            </div>
+        <div *ngIf="i%2==1" class="achievement-image" style="margin-left:50px;">
+          <img src="{{listOfUserPictures[i]}}" />
+        </div>
+        <div class="achievement-description-outer">
+          <div class="achievement-description-inner">
+            <b>{{name}}</b> earned the trophy <b>{{listOfAchievements[i]}}</b>
           </div>
         </div>
       </div>
     </div>
+
+    <h3>Trophy Tracker News</h3>
+    <div class="dark-container">
+      <div class="achievement-image-container">
+        <div class="achievement-image">
+          <img src="https://i.postimg.cc/WpXR5Wb8/2477-200.png" />
+        </div>
+        <div class="achievement-description-outer">
+          <div class="achievement-description-inner">
+            <b>Posted on 10/29/2019</b>
+            <p>This is just some news about the system update. Look, it's a real website now!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="achievement-image-container">
+        <div class="achievement-image" style="margin-left:50px;">
+          <img src="https://i.postimg.cc/WpXR5Wb8/2477-200.png" />
+        </div>
+        <div class="achievement-description-outer">
+          <div class="achievement-description-inner">
+            <b>Posted on 10/29/2019</b>
+            <p>This is just some news about the system update. Look, it's a real website now!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="achievement-image-container">
+          <div class="achievement-image">
+            <img src="https://i.postimg.cc/WpXR5Wb8/2477-200.png" />
+          </div>
+          <div class="achievement-description-outer">
+            <div class="achievement-description-inner">
+              <b>Posted on 10/29/2019</b>
+              <p>This is just some news about the system update. Look, it's a real website now!</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="achievement-image-container">
+          <div class="achievement-image" style="margin-left:50px;">
+            <img src="https://i.postimg.cc/WpXR5Wb8/2477-200.png" />
+          </div>
+          <div class="achievement-description-outer">
+            <div class="achievement-description-inner">
+              <b>Posted on 10/29/2019</b>
+              <p>This is just some news about the system update. Look, it's a real website now!</p>
+            </div>
+          </div>
+        </div>
+    </div>
   </div>
 </div>
-<div class="col-sm-3"> </div>
