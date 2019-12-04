@@ -1,3 +1,25 @@
-<p>
-  friends-page works!
-</p>
+<div class="row">
+  <div class="col-sm-12">
+    <h2>Friends Info</h2>
+    <div class="highlighted-dark-container">
+      <div *ngFor="let name of names;let i = index;" class="achievement-image-container">
+        <div *ngIf="i%2==0" class="achievement-image">
+          <img src="{{listOfUserPictures[i]}}" />
+        </div>
+        <div *ngIf="i%2==1" class="achievement-image" style="margin-left:50px;">
+          <img src="{{listOfUserPictures[i]}}" />
+        </div>
+        <div class="achievement-description-outer">
+          <div class="achievement-description-inner">
+            <div class="achievement-name">
+              {{name}}
+            </div>
+            <div class="achievement-unlock-date">
+              Was Last Online: {{listOfAchievements[i]}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
