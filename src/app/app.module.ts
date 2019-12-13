@@ -30,6 +30,7 @@ import { FriendsAchievementsComponent } from './home-page/subcomponents/friends-
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot([
+     
       {
         path: 'home',
         component: HomePageComponent
@@ -45,6 +46,14 @@ import { FriendsAchievementsComponent } from './home-page/subcomponents/friends-
       {
         path: 'profile',
         component: ProfilePageComponent
+      },
+      {
+        path: '',
+        component: HomePageComponent
+      },
+      {
+        path: '**',
+        component: HomePageComponent
       }
     ])
   ],
