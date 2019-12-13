@@ -1,7 +1,7 @@
 # BTH745TrophyTracker
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
-It can be seen running at: http://bth710trophy-tracker.herokuapp.com/home
+It can be seen running at: http://bth745trophy-tracker.herokuapp.com/home
 
 ## Development server
 
